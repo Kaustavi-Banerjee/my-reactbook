@@ -1,0 +1,4 @@
+.active {
+    @apply bg-blue-300;
+    @apply text-white;
+}

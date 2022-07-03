@@ -1,11 +1,11 @@
 import React from 'react';
+import AppWrapper from './app-wrapper';
 import './App.css';
-import BookList from './pages/BookList';
 
 function App() {
   return (
     <div className="App">
-      <BookList />
+      <AppWrapper />
     </div>
   );
 }

@@ -28,6 +28,7 @@ function makeRoute(match: string, option?: MakeRouteOptions): Route {
   }
 
 export const routes = {
+    initialPage: makeRoute('/'),
     bookList: makeRoute('/book-list'),
     bookCreate: makeRoute('/book/create'),
     bookEdit: {
